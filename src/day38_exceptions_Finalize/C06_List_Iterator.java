@@ -14,13 +14,13 @@ public class C06_List_Iterator {
         sayılar.add(4);
         sayılar.add(72);
 
-        // tüm elementleri index
+        // tüm elementleri index kullanmadan 3 artırın
         ListIterator lit= sayılar.listIterator();
 
         while (lit.hasNext()){
             Integer sayı=(Integer) lit.next();
             lit.set(sayı+3);
-            System.out.println(sayılar);
+            System.out.println(sayılar); // [64, 15, 17, 7, 75]
         }
 
     }

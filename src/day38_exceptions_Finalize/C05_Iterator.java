@@ -18,11 +18,13 @@ public class C05_Iterator {
         // çift olan sayıları silin
 
         Iterator it1= sayılar.iterator();
-        // iterator interface old için method oluşmaz
 
-        while (it1.hasNext()){ // yanında adam var mı?
+        // iterator interface old için method oluşmaz Bundan dolayı sayılar.iterator deriz
 
-         Integer sayı=(Integer)it1.next();// burda casting yaptık
+        while (it1.hasNext()){ // yanında adam var olduğu sürece ilerle
+
+         Integer sayı=(Integer)it1.next();// burda casting yaptık ÇÜNKÜ it.1.next Object istiyor ama karşılığı integer bundan dolayı casting yaptık
+
             if (sayı%2==0){
 
             }
