@@ -48,31 +48,38 @@ public class MapMethodDepo {
 
             // 3) array den sube yi kontrol edip (H)
             // 4) eğer istenen şube ise öğrencinin sınıf, isim ve soyismini yazdıralım
-        //    if (valueArr[3].equalsIgnoreCase(istenenŞube)) {
-                System.out.println(sıraNo + "- " + valueArr[2] + ", " + valueArr[0] + ", " + valueArr[1]);
-                sıraNo++; // sıra noyu her defasında artıracak
-            }
-
+            //    if (valueArr[3].equalsIgnoreCase(istenenŞube)) {
+            System.out.println(sıraNo + "- " + valueArr[2] + ", " + valueArr[0] + ", " + valueArr[1]);
+            sıraNo++; // sıra noyu her defasında artıracak
         }
+
     }
 
-  //  public static Map<Integer, String> topluŞubeDeğiştirme(Map<Integer, String> okulMap, String eskiŞube, String yeniŞube) {
+   // public static Map<Integer, String> topluŞubeDeğiştirme(Map<Integer, String> okulMap, String eskiŞube, String yeniŞube) {
+
+
+        // }
+
+
+        //  public static Map<Integer, String> topluŞubeDeğiştirme(Map<Integer, String> okulMap, String eskiŞube, String yeniŞube) {
         // 1) önce key leri bir set olarak kaydedelim
-      //  Set<Integer> okulKeySeti = okulMap.keySet();
+        //  Set<Integer> okulKeySeti = okulMap.keySet();
 
 
+        // 2) her bir value ların split ile array lere dönüştürelim
+        //  String[] valueArr = okulMap.get(eachKey);
 
-            // 2) her bir value ların split ile array lere dönüştürelim
-          //  String[] valueArr = okulMap.get(eachKey);
+        // 3 Şube bilgisi eskiŞube olanları yeniŞube yapalım
+        // 4) array deki bilgileri birleştirerek yeniden map a ekleyelim
 
-            // 3 Şube bilgisi eskiŞube olanları yeniŞube yapalım
-            // 4) array deki bilgileri birleştirerek yeniden map a ekleyelim
-
-            // 5)okulMap ın son halini return edeliM
+        // 5)okulMap ın son halini return edeliM
 
 
-       // }
+        // }
 
- //   }
+        //   }
 
-  //}
+        //}
+  //  }return
+}
+
