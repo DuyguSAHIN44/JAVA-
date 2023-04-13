@@ -16,8 +16,8 @@ public class C02_NestedİfElse {
         // Birden fazla değişkene bağlı if else statement larını yazarken
         // Önce değişkenlerden birine göre ana yapıyı oluşturalım
 
-        // Bu sorudacinsiyeti ana değişken yapalım
-        //İkinci değişkeni ana değişkenin her bölümünde ayrı ayrı değerlendirelim
+        // Bu soruda cinsiyeti ana değişken yapalım
+        // İkinci değişkeni ana değişkenin her bölümünde ayrı ayrı değerlendirelim
 
         Scanner scan=new Scanner(System.in);
         System.out.println("Lütfen cinsiyetinizi giriniz"+"\nKadın için:K, Erkek için:E giriniz");
